@@ -1,0 +1,37 @@
+.hero-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 2.6rem;
+  box-shadow: 0px 3px 6px 0px rgba(224, 224, 224, 0.75);
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(224, 224, 224, 0.75);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(224, 224, 224, 0.75);
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-list li {
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.menu-list > .login-btn {
+  width: 130px;
+  margin-left: 20px;
+  text-align: center;
+  background-color: #3179d7;
+  cursor: pointer;
+}
+
+.menu-list .login-btn a {
+  color: white;
+}
+
+.menu-list li a:not(.login-btn a):hover {
+  color: #4a86d4;
+  border-bottom: 4px solid #4a86d4;
+}
