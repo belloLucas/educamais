@@ -1,4 +1,4 @@
-import "./style.css/instructors.css";
+import "./styles/instructors.css";
 
 import instructor1 from "../../assets/instructors/instructor1.png";
 import instructor2 from "../../assets/instructors/instructor2.png";

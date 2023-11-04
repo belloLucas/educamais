@@ -1,0 +1,49 @@
+footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 6.5rem;
+  padding-bottom: 10rem;
+  background-color: #3179d7;
+}
+
+.label {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 70%;
+  padding: 2.5rem 1rem 2.5rem 1rem;
+  background-color: white;
+}
+
+.label .left {
+  text-align: cente;
+}
+
+.label .left h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.label .left p {
+  font-size: 14px;
+  color: #545252;
+}
+
+.label .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 235px;
+  font-size: 18px;
+  color: white;
+  background-color: #10b817;
+}
+
+.label .btn img {
+  width: 20px;
+}
