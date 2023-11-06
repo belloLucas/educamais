@@ -8,8 +8,8 @@ export default function Enroll() {
       <img src={woman} alt="" />
       <div className="texts">
         <h1>
-          Construa seu futuro em uma das <br /> melhores escolas de tecnologia
-          do <br /> Brasil
+          Construa seu futuro em uma das melhores escolas de tecnologia do
+          Brasil
         </h1>
         <p className="text">
           Nossa escola de cursos de tecnologia oferece programas de formação de

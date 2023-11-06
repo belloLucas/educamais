@@ -32,3 +32,36 @@
   color: white;
   background-color: #3179d7;
 }
+
+@media (max-width: 1200px) {
+  .enroll {
+    flex-direction: column;
+  }
+
+  .enroll .texts h1 {
+    font-size: 32px;
+  }
+
+  .enroll .texts .text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .enroll img {
+    display: none;
+  }
+
+  .enroll .texts h1 {
+    font-size: 28px;
+    max-width: 80%;
+  }
+
+  .enroll .texts .text {
+    font-size: 14px;
+  }
+
+  .enroll .texts .btn {
+    font-size: 18px;
+  }
+}
