@@ -66,3 +66,59 @@ main .main-title {
 .box:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 1200px) {
+  main {
+    overflow-x: visible;
+  }
+
+  .courses-section {
+    max-width: 100%;
+  }
+
+  .courses {
+    margin-left: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 991px) {
+  .bg-color {
+    display: none;
+  }
+}
+
+@media (max-width: 730px) {
+  main .main-title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .bg-color {
+    display: none;
+  }
+
+  .courses {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 450px) {
+  main .main-title {
+    font-size: 28px;
+  }
+
+  .box {
+    gap: 0.3rem;
+    max-width: 250px;
+    padding: 15px;
+  }
+
+  .box .title {
+    font-size: 16px;
+  }
+
+  .box .lower-itens h4 {
+    font-size: 16px;
+  }
+}
