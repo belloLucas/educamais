@@ -55,6 +55,16 @@
     width: 80%;
     font-size: 18px;
   }
+
+  .instructors-section .text {
+    width: 67%;
+  }
+}
+
+@media (max-width: 991px) {
+  .instructors-section .text {
+    width: 85%;
+  }
 }
 
 @media (max-width: 555px) {
@@ -64,6 +74,10 @@
 
   .instructors-section .instructors-container {
     grid-template-columns: 1fr;
+  }
+
+  .instructors-section .text {
+    width: 63%;
   }
 }
 
