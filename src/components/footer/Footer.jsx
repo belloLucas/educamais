@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="label">
-        <div className="left">
+        <div className="left-text">
           <h1>Preparado para começar sua jornada?</h1>
           <p>
             Clique no botão ao lado para conversar com um de nossos atendentes.
