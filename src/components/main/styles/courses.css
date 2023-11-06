@@ -77,7 +77,6 @@ main .main-title {
   }
 
   .courses {
-    margin-left: 30px;
     grid-template-columns: 1fr 1fr;
   }
 }
