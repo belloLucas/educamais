@@ -4,7 +4,7 @@ import woman from "../../assets/enroll/woman.png";
 
 export default function Enroll() {
   return (
-    <section className="enroll">
+    <section id="enroll" className="enroll">
       <img src={woman} alt="" />
       <div className="texts">
         <h1>

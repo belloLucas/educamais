@@ -11,7 +11,7 @@ import instructor8 from "../../assets/instructors/instructor8.png";
 
 export default function Instructors() {
   return (
-    <section className="instructors-section">
+    <section id="instructors" className="instructors-section">
       <h1 className="main-title">NOSSOS INSTRUTORES</h1>
       <div className="instructors-container">
         <div className="instructor-box">

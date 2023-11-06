@@ -13,7 +13,7 @@ import star from "../../assets/courses/star-filled.png";
 
 export default function Courses() {
   return (
-    <main>
+    <main id="courses">
       <h1 className="main-title">CURSOS EM DESTAQUE</h1>
       <div className="courses-section">
         <div className="bg-color"></div>

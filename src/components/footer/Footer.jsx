@@ -4,7 +4,7 @@ import "./styles/footer.css";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer id="footer">
       <div className="label">
         <div className="left-text">
           <h1>Preparado para começar sua jornada?</h1>

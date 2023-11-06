@@ -5,7 +5,7 @@ import "../header/styles/header-body.css";
 
 export default function HeaderBody() {
   return (
-    <section className="hero">
+    <section id="hero" className="hero">
       <div className="left">
         <div className="discount">
           <p className="highlight">50% OFF</p>
