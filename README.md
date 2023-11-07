@@ -1,8 +1,14 @@
-# React + Vite
+# Educa+
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto se trata de uma landing page feita em React.
 
-Currently, two official plugins are available:
+Nela, foram criadas algumas funcionalidades:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Menu Desktop
+- Menu Mobile
+- Modal de login
+- Modal de contato
+
+A landing page também é totalmente responsiva, se adequando aos mais variados tipos e tamanhos de telas.
+
+Ela pod ser acessada no seguinte link: https://bellolucas.github.io/educamais/
