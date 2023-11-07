@@ -16,10 +16,12 @@ function Header() {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
 
   const closeModal = () => {
+    document.querySelector(".modal-login").close();
     setLoginModalOpen(false);
   };
 
   const openLoginModal = () => {
+    document.querySelector(".modal-login").showModal();
     setLoginModalOpen(true);
     closeMenu();
   };

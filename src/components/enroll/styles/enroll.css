@@ -31,6 +31,8 @@
   text-align: center;
   color: white;
   background-color: #3179d7;
+  border: none;
+  cursor: pointer;
 }
 
 @media (max-width: 1200px) {

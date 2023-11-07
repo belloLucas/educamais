@@ -1,24 +1,28 @@
 .modal-login {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
   width: 40%;
   height: 80%;
+  margin: 5% auto;
   border-radius: 5px;
+  background-color: white;
 }
 
 .modal-login h1 {
-  text-align: center;
   margin: 70px 0;
+  text-align: center;
 }
 
 .login-form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.login-form .input-box {
+  width: 100%;
 }
 
 .login-form .input-box input[type="email"],
@@ -26,20 +30,18 @@ input[type="password"],
 .login-btn {
   width: 80%;
   padding: 10px 5px;
+  border: 1px solid #2b2a2a;
 }
 
 .login-form .input-box {
   position: relative;
-  left: 50%;
-  width: 100%;
-  transform: translateX(-40%);
 }
 
 /* Label animation */
 
 .login-form .input-box span {
   position: absolute;
-  left: 5%;
+  left: 12%;
   top: 25%;
   width: 50px;
   text-align: center;
@@ -69,7 +71,7 @@ input[type="password"],
 .login-form .close-modal-btn {
   position: absolute;
   top: 5%;
-  left: 90%;
+  left: 88%;
   font-size: 32px;
   cursor: pointer;
 }
