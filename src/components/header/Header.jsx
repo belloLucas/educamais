@@ -58,7 +58,7 @@ function Header() {
             <span>Senha</span>
           </div>
 
-          <button className="login-btn" type="submit">
+          <button onClick={closeModal} className="login-btn" type="submit">
             Entrar
           </button>
         </div>

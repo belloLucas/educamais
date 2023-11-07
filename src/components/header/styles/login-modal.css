@@ -24,12 +24,15 @@
 .login-form .input-box input[type="email"],
 input[type="password"],
 .login-btn {
-  width: 300px;
+  width: 80%;
   padding: 10px 5px;
 }
 
 .login-form .input-box {
   position: relative;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-40%);
 }
 
 /* Label animation */
@@ -73,4 +76,45 @@ input[type="password"],
 
 .visible {
   display: block;
+}
+
+@media (max-width: 991px) {
+  .modal-login {
+    width: 50%;
+    height: 70%;
+  }
+
+  .modal-login h1 {
+    font-size: 30px;
+    margin: 50px 0;
+  }
+
+  .login-form .close-modal-btn {
+    top: 2%;
+    left: 88%;
+    font-size: 30px;
+  }
+
+  .login-form .input-box input[type="email"],
+  input[type="password"],
+  .login-btn {
+    padding: 8px 4px;
+  }
+}
+
+@media (max-width: 590px) {
+  .modal-login {
+    width: 80%;
+    height: 60%;
+  }
+
+  .modal-login h1 {
+    font-size: 24px;
+    margin: 50px 0;
+  }
+
+  .login-form .close-modal-btn {
+    left: 85%;
+    font-size: 24px;
+  }
 }
