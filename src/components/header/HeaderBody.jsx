@@ -1,4 +1,5 @@
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 import woman from "../../assets/header/woman.png";
 import "../header/styles/header-body.css";
@@ -21,9 +22,15 @@ export default function HeaderBody() {
           </p>
         </div>
         <div className="btn">
-          <a href="#" className="">
+          <Link
+            to="courses"
+            spy={true}
+            smooth={true}
+            offset={3}
+            duration={1000}
+          >
             Conheça os cursos
-          </a>
+          </Link>
           <BsArrowRight className="arrow"></BsArrowRight>
         </div>
       </div>
