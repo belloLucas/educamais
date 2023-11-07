@@ -28,15 +28,15 @@ export default function Enroll() {
         <h1>Entre em contato com a nossa equipe</h1>
         <div className="form-wrapper">
           <div className="form-box">
-            <input type="text" name="name" required />
+            <input autoComplete="false" type="text" name="name" required />
             <span>Nome</span>
           </div>
           <div className="form-box">
-            <input type="email" name="email" required />
+            <input autoComplete="false" type="email" name="email" required />
             <span>Email</span>
           </div>
           <div className="form-box">
-            <input type="tel" name="phone" required />
+            <input autoComplete="false" type="tel" name="phone" required />
             <span>Telefone</span>
           </div>
           <button onClick={closeContactModal} className="send" type="submit">
