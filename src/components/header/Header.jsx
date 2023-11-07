@@ -46,12 +46,19 @@ function Header() {
         <div className="login-form">
           <RxCross1 onClick={closeModal} className="close-modal-btn"></RxCross1>
           <div className="input-box">
-            <input type="email" name="email" className="email-input" required />
+            <input
+              autoComplete="false"
+              type="email"
+              name="email"
+              className="email-input"
+              required
+            />
             <span>Email</span>
           </div>
 
           <div className="input-box">
             <input
+              autoComplete="false"
               type="password"
               name="password"
               className="password-input"
@@ -59,7 +66,7 @@ function Header() {
             />
             <span>Senha</span>
           </div>
-
+          <p className="forgot-password">Esqueceu sua senha?</p>
           <button onClick={closeModal} className="login-btn" type="submit">
             Entrar
           </button>

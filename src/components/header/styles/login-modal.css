@@ -1,13 +1,14 @@
 .modal-login {
-  width: 40%;
-  height: 80%;
-  margin: 5% auto;
+  width: 30%;
+  margin: 5.8% auto;
+  padding: 2rem 1rem 3rem 1rem;
   border-radius: 5px;
   background-color: white;
 }
 
 .modal-login h1 {
-  margin: 70px 0;
+  font-size: 28px;
+  margin: 40px 0;
   text-align: center;
 }
 
@@ -29,7 +30,7 @@
 input[type="password"],
 .login-btn {
   width: 80%;
-  padding: 10px 5px;
+  padding: 15px 5px;
   border: 1px solid #2b2a2a;
 }
 
@@ -54,6 +55,11 @@ input[type="password"],
   top: -13%;
   color: #2b2a2a;
   background-color: white;
+}
+
+.login-form .forgot-password {
+  color: #2a6abd;
+  cursor: pointer;
 }
 
 .login-form .login-btn {
