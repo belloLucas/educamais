@@ -22,13 +22,14 @@
 .menu-list > .login-btn {
   width: 130px;
   margin-left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
   text-align: center;
   background-color: #3179d7;
-  cursor: pointer;
-}
-
-.menu-list .login-btn a {
   color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
 }
 
 .menu-list .active {
@@ -96,6 +97,8 @@
 .mobile-menu .menu-list .login-btn {
   width: 200px;
   margin: 0;
+  font-size: 22px;
+  padding: 0.8rem;
 }
 
 @media (max-width: 991px) {
