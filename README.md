@@ -1,6 +1,6 @@
 # Educa+
 
-O projeto se trata de uma landing page feita em React.
+O projeto se trata um dos desafios semanais do servidor Futuros Dev's no Discord. É uma landing page com tema educacional feita em React.
 
 Nela, foram criadas algumas funcionalidades:
 
@@ -11,4 +11,4 @@ Nela, foram criadas algumas funcionalidades:
 
 A landing page também é totalmente responsiva, se adequando aos mais variados tipos e tamanhos de telas.
 
-Ela pod ser acessada no seguinte link: https://bellolucas.github.io/educamais/
+Ela pode ser acessada no seguinte link: https://bellolucas.github.io/educamais/
